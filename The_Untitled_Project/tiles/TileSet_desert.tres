@@ -1,0 +1,996 @@
+[gd_resource type="TileSet" load_steps=14 format=2]
+
+[ext_resource path="res://tiles/tileset_atlas.png" type="Texture" id=1]
+[ext_resource path="res://assets/standard_light_perspective_gradient.png" type="Texture" id=2]
+
+[sub_resource type="OccluderPolygon2D" id=1]
+polygon = PoolVector2Array( -14, -14, 14, -14, 14, 14, -14, 14 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="OccluderPolygon2D" id=3]
+closed = false
+polygon = PoolVector2Array( -14, 14, -14, -14, 14, -14, 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 14, 14 )
+
+[resource]
+0/name = "Desert_sand_1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 28, 28, 28, 28 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 14, 14 )
+0/navigation_offset = Vector2( 14, 14 )
+0/shapes = [  ]
+0/z_index = 0
+1/name = "Desert_sand_2"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 56, 28, 28, 28 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 14, 14 )
+1/navigation_offset = Vector2( 14, 14 )
+1/shapes = [  ]
+1/z_index = 0
+2/name = "Desert_sand_3"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 84, 28, 28, 28 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 14, 14 )
+2/navigation_offset = Vector2( 14, 14 )
+2/shapes = [  ]
+2/z_index = 0
+3/name = "Desert_sand_4"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 112, 28, 28, 28 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 14, 14 )
+3/navigation_offset = Vector2( 14, 14 )
+3/shapes = [  ]
+3/z_index = 0
+4/name = "Desert_sand_5"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 28, 56, 28, 28 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 14, 14 )
+4/navigation_offset = Vector2( 14, 14 )
+4/shapes = [  ]
+4/z_index = 0
+5/name = "Desert_sand_6"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 56, 56, 28, 28 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 14, 14 )
+5/navigation_offset = Vector2( 14, 14 )
+5/shapes = [  ]
+5/z_index = 0
+6/name = "Desert_sand_7"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 84, 56, 28, 28 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 14, 14 )
+6/navigation_offset = Vector2( 14, 14 )
+6/shapes = [  ]
+6/z_index = 0
+7/name = "Desert_sand_8"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 112, 56, 28, 28 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 14, 14 )
+7/navigation_offset = Vector2( 14, 14 )
+7/shapes = [  ]
+7/z_index = 0
+8/name = "Desert_sand_9"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 28, 84, 28, 28 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 14, 14 )
+8/navigation_offset = Vector2( 14, 14 )
+8/shapes = [  ]
+8/z_index = 0
+9/name = "Desert_sand_10"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 56, 84, 28, 28 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 14, 14 )
+9/navigation_offset = Vector2( 14, 14 )
+9/shapes = [  ]
+9/z_index = 0
+10/name = "Desert_sand_11"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 84, 84, 28, 28 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 14, 14 )
+10/navigation_offset = Vector2( 14, 14 )
+10/shapes = [  ]
+10/z_index = 0
+11/name = "Desert_sand_12"
+11/texture = ExtResource( 1 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 112, 84, 28, 28 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 14, 14 )
+11/navigation_offset = Vector2( 14, 14 )
+11/shapes = [  ]
+11/z_index = 0
+12/name = "Desert_sand_13"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 28, 112, 28, 28 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 14, 14 )
+12/navigation_offset = Vector2( 14, 14 )
+12/shapes = [  ]
+12/z_index = 0
+13/name = "Desert_sand_14"
+13/texture = ExtResource( 1 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 56, 112, 28, 28 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 14, 14 )
+13/navigation_offset = Vector2( 14, 14 )
+13/shapes = [  ]
+13/z_index = 0
+14/name = "Desert_sand_15"
+14/texture = ExtResource( 1 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 84, 112, 28, 28 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 14, 14 )
+14/navigation_offset = Vector2( 14, 14 )
+14/shapes = [  ]
+14/z_index = 0
+15/name = "Desert_sand_16"
+15/texture = ExtResource( 1 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 112, 112, 28, 28 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 14, 14 )
+15/navigation_offset = Vector2( 14, 14 )
+15/shapes = [  ]
+15/z_index = 0
+16/name = "Desert_grass"
+16/texture = ExtResource( 1 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 28, 168, 28, 28 )
+16/tile_mode = 0
+16/occluder_offset = Vector2( 14, 14 )
+16/navigation_offset = Vector2( 14, 14 )
+16/shapes = [  ]
+16/z_index = 0
+17/name = "Desert_sand_01"
+17/texture = ExtResource( 1 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 28, 28, 28, 28 )
+17/tile_mode = 0
+17/occluder_offset = Vector2( 14, 14 )
+17/navigation_offset = Vector2( 14, 14 )
+17/shapes = [  ]
+17/z_index = 0
+18/name = "Desert_sand_02"
+18/texture = ExtResource( 1 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 56, 28, 28, 28 )
+18/tile_mode = 0
+18/occluder_offset = Vector2( 14, 14 )
+18/navigation_offset = Vector2( 14, 14 )
+18/shapes = [  ]
+18/z_index = 0
+19/name = "Desert_sand_03"
+19/texture = ExtResource( 1 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 84, 28, 28, 28 )
+19/tile_mode = 0
+19/occluder_offset = Vector2( 14, 14 )
+19/navigation_offset = Vector2( 14, 14 )
+19/shapes = [  ]
+19/z_index = 0
+20/name = "Desert_sand_04"
+20/texture = ExtResource( 1 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 112, 28, 28, 28 )
+20/tile_mode = 0
+20/occluder_offset = Vector2( 14, 14 )
+20/navigation_offset = Vector2( 14, 14 )
+20/shapes = [  ]
+20/z_index = 0
+21/name = "Desert_red_sand_01"
+21/texture = ExtResource( 1 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 168, 28, 28, 28 )
+21/tile_mode = 0
+21/occluder_offset = Vector2( 14, 14 )
+21/navigation_offset = Vector2( 14, 14 )
+21/shapes = [  ]
+21/z_index = 0
+22/name = "Desert_red_sand_05"
+22/texture = ExtResource( 1 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 168, 56, 28, 28 )
+22/tile_mode = 0
+22/occluder_offset = Vector2( 14, 14 )
+22/navigation_offset = Vector2( 14, 14 )
+22/shapes = [  ]
+22/z_index = 0
+23/name = "Desert_red_sand_09"
+23/texture = ExtResource( 1 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 168, 84, 28, 28 )
+23/tile_mode = 0
+23/occluder_offset = Vector2( 14, 14 )
+23/navigation_offset = Vector2( 14, 14 )
+23/shapes = [  ]
+23/z_index = 0
+24/name = "Desert_red_sand_13"
+24/texture = ExtResource( 1 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 168, 112, 28, 28 )
+24/tile_mode = 0
+24/occluder_offset = Vector2( 14, 14 )
+24/navigation_offset = Vector2( 14, 14 )
+24/shapes = [  ]
+24/z_index = 0
+25/name = "Desert_red_sand_14"
+25/texture = ExtResource( 1 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 196, 112, 28, 28 )
+25/tile_mode = 0
+25/occluder_offset = Vector2( 14, 14 )
+25/navigation_offset = Vector2( 14, 14 )
+25/shapes = [  ]
+25/z_index = 0
+26/name = "Desert_red_sand_15"
+26/texture = ExtResource( 1 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 224, 112, 28, 28 )
+26/tile_mode = 0
+26/occluder_offset = Vector2( 14, 14 )
+26/navigation_offset = Vector2( 14, 14 )
+26/shapes = [  ]
+26/z_index = 0
+27/name = "Desert_red_sand_16"
+27/texture = ExtResource( 1 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 252, 112, 28, 28 )
+27/tile_mode = 0
+27/occluder_offset = Vector2( 14, 14 )
+27/navigation_offset = Vector2( 14, 14 )
+27/shapes = [  ]
+27/z_index = 0
+28/name = "Desert_red_sand_10"
+28/texture = ExtResource( 1 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 196, 84, 28, 28 )
+28/tile_mode = 0
+28/occluder_offset = Vector2( 14, 14 )
+28/navigation_offset = Vector2( 14, 14 )
+28/shapes = [  ]
+28/z_index = 0
+29/name = "Desert_red_sand_11"
+29/texture = ExtResource( 1 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 224, 84, 28, 28 )
+29/tile_mode = 0
+29/occluder_offset = Vector2( 14, 14 )
+29/navigation_offset = Vector2( 14, 14 )
+29/shapes = [  ]
+29/z_index = 0
+30/name = "Desert_red_sand_12"
+30/texture = ExtResource( 1 )
+30/tex_offset = Vector2( 0, 0 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 252, 84, 28, 28 )
+30/tile_mode = 0
+30/occluder_offset = Vector2( 14, 14 )
+30/navigation_offset = Vector2( 14, 14 )
+30/shapes = [  ]
+30/z_index = 0
+31/name = "Desert_red_sand_06"
+31/texture = ExtResource( 1 )
+31/tex_offset = Vector2( 0, 0 )
+31/modulate = Color( 1, 1, 1, 1 )
+31/region = Rect2( 196, 56, 28, 28 )
+31/tile_mode = 0
+31/occluder_offset = Vector2( 14, 14 )
+31/navigation_offset = Vector2( 14, 14 )
+31/shapes = [  ]
+31/z_index = 0
+32/name = "Desert_red_sand_07"
+32/texture = ExtResource( 1 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 224, 56, 28, 28 )
+32/tile_mode = 0
+32/occluder_offset = Vector2( 14, 14 )
+32/navigation_offset = Vector2( 14, 14 )
+32/shapes = [  ]
+32/z_index = 0
+33/name = "Desert_red_sand_08"
+33/texture = ExtResource( 1 )
+33/tex_offset = Vector2( 0, 0 )
+33/modulate = Color( 1, 1, 1, 1 )
+33/region = Rect2( 252, 56, 28, 28 )
+33/tile_mode = 0
+33/occluder_offset = Vector2( 14, 14 )
+33/navigation_offset = Vector2( 14, 14 )
+33/shapes = [  ]
+33/z_index = 0
+34/name = "Desert_red_sand_02"
+34/texture = ExtResource( 1 )
+34/tex_offset = Vector2( 0, 0 )
+34/modulate = Color( 1, 1, 1, 1 )
+34/region = Rect2( 196, 28, 28, 28 )
+34/tile_mode = 0
+34/occluder_offset = Vector2( 14, 14 )
+34/navigation_offset = Vector2( 14, 14 )
+34/shapes = [  ]
+34/z_index = 0
+35/name = "Desert_red_sand_03"
+35/texture = ExtResource( 1 )
+35/tex_offset = Vector2( 0, 0 )
+35/modulate = Color( 1, 1, 1, 1 )
+35/region = Rect2( 224, 28, 28, 28 )
+35/tile_mode = 0
+35/occluder_offset = Vector2( 14, 14 )
+35/navigation_offset = Vector2( 14, 14 )
+35/shapes = [  ]
+35/z_index = 0
+36/name = "Desert_red_sand_04"
+36/texture = ExtResource( 1 )
+36/tex_offset = Vector2( 0, 0 )
+36/modulate = Color( 1, 1, 1, 1 )
+36/region = Rect2( 252, 28, 28, 28 )
+36/tile_mode = 0
+36/occluder_offset = Vector2( 14, 14 )
+36/navigation_offset = Vector2( 14, 14 )
+36/shapes = [  ]
+36/z_index = 0
+37/name = "Desert_stones_01"
+37/texture = ExtResource( 1 )
+37/tex_offset = Vector2( 0, 0 )
+37/modulate = Color( 1, 1, 1, 1 )
+37/region = Rect2( 308, 28, 28, 28 )
+37/tile_mode = 0
+37/occluder_offset = Vector2( 14, 14 )
+37/navigation_offset = Vector2( 14, 14 )
+37/shapes = [  ]
+37/z_index = 0
+38/name = "Desert_stones_05"
+38/texture = ExtResource( 1 )
+38/tex_offset = Vector2( 0, 0 )
+38/modulate = Color( 1, 1, 1, 1 )
+38/region = Rect2( 308, 56, 28, 28 )
+38/tile_mode = 0
+38/occluder_offset = Vector2( 14, 14 )
+38/navigation_offset = Vector2( 14, 14 )
+38/shapes = [  ]
+38/z_index = 0
+39/name = "Desert_stones_09"
+39/texture = ExtResource( 1 )
+39/tex_offset = Vector2( 0, 0 )
+39/modulate = Color( 1, 1, 1, 1 )
+39/region = Rect2( 308, 84, 28, 28 )
+39/tile_mode = 0
+39/occluder_offset = Vector2( 14, 14 )
+39/navigation_offset = Vector2( 14, 14 )
+39/shapes = [  ]
+39/z_index = 0
+40/name = "Desert_stones_13"
+40/texture = ExtResource( 1 )
+40/tex_offset = Vector2( 0, 0 )
+40/modulate = Color( 1, 1, 1, 1 )
+40/region = Rect2( 308, 112, 28, 28 )
+40/tile_mode = 0
+40/occluder_offset = Vector2( 14, 14 )
+40/navigation_offset = Vector2( 14, 14 )
+40/shapes = [  ]
+40/z_index = 0
+41/name = "Desert_stones_14"
+41/texture = ExtResource( 1 )
+41/tex_offset = Vector2( 0, 0 )
+41/modulate = Color( 1, 1, 1, 1 )
+41/region = Rect2( 336, 112, 28, 28 )
+41/tile_mode = 0
+41/occluder_offset = Vector2( 14, 14 )
+41/navigation_offset = Vector2( 14, 14 )
+41/shapes = [  ]
+41/z_index = 0
+42/name = "Desert_stones_15"
+42/texture = ExtResource( 1 )
+42/tex_offset = Vector2( 0, 0 )
+42/modulate = Color( 1, 1, 1, 1 )
+42/region = Rect2( 364, 112, 28, 28 )
+42/tile_mode = 0
+42/occluder_offset = Vector2( 14, 14 )
+42/navigation_offset = Vector2( 14, 14 )
+42/shapes = [  ]
+42/z_index = 0
+43/name = "Desert_stones_16"
+43/texture = ExtResource( 1 )
+43/tex_offset = Vector2( 0, 0 )
+43/modulate = Color( 1, 1, 1, 1 )
+43/region = Rect2( 392, 112, 28, 28 )
+43/tile_mode = 0
+43/occluder_offset = Vector2( 14, 14 )
+43/navigation_offset = Vector2( 14, 14 )
+43/shapes = [  ]
+43/z_index = 0
+44/name = "Desert_stones_10"
+44/texture = ExtResource( 1 )
+44/tex_offset = Vector2( 0, 0 )
+44/modulate = Color( 1, 1, 1, 1 )
+44/region = Rect2( 336, 84, 28, 28 )
+44/tile_mode = 0
+44/occluder_offset = Vector2( 14, 14 )
+44/navigation_offset = Vector2( 14, 14 )
+44/shapes = [  ]
+44/z_index = 0
+45/name = "Desert_stones_11"
+45/texture = ExtResource( 1 )
+45/tex_offset = Vector2( 0, 0 )
+45/modulate = Color( 1, 1, 1, 1 )
+45/region = Rect2( 364, 84, 28, 28 )
+45/tile_mode = 0
+45/occluder_offset = Vector2( 14, 14 )
+45/navigation_offset = Vector2( 14, 14 )
+45/shapes = [  ]
+45/z_index = 0
+46/name = "Desert_stones_12"
+46/texture = ExtResource( 1 )
+46/tex_offset = Vector2( 0, 0 )
+46/modulate = Color( 1, 1, 1, 1 )
+46/region = Rect2( 392, 84, 28, 28 )
+46/tile_mode = 0
+46/occluder_offset = Vector2( 14, 14 )
+46/navigation_offset = Vector2( 14, 14 )
+46/shapes = [  ]
+46/z_index = 0
+47/name = "Desert_stones_06"
+47/texture = ExtResource( 1 )
+47/tex_offset = Vector2( 0, 0 )
+47/modulate = Color( 1, 1, 1, 1 )
+47/region = Rect2( 336, 56, 28, 28 )
+47/tile_mode = 0
+47/occluder_offset = Vector2( 14, 14 )
+47/navigation_offset = Vector2( 14, 14 )
+47/shapes = [  ]
+47/z_index = 0
+48/name = "Desert_stones_07"
+48/texture = ExtResource( 1 )
+48/tex_offset = Vector2( 0, 0 )
+48/modulate = Color( 1, 1, 1, 1 )
+48/region = Rect2( 364, 56, 28, 28 )
+48/tile_mode = 0
+48/occluder_offset = Vector2( 14, 14 )
+48/navigation_offset = Vector2( 14, 14 )
+48/shapes = [  ]
+48/z_index = 0
+49/name = "Desert_stones_08"
+49/texture = ExtResource( 1 )
+49/tex_offset = Vector2( 0, 0 )
+49/modulate = Color( 1, 1, 1, 1 )
+49/region = Rect2( 392, 56, 28, 28 )
+49/tile_mode = 0
+49/occluder_offset = Vector2( 14, 14 )
+49/navigation_offset = Vector2( 14, 14 )
+49/shapes = [  ]
+49/z_index = 0
+50/name = "Desert_stones_02"
+50/texture = ExtResource( 1 )
+50/tex_offset = Vector2( 0, 0 )
+50/modulate = Color( 1, 1, 1, 1 )
+50/region = Rect2( 336, 28, 28, 28 )
+50/tile_mode = 0
+50/occluder_offset = Vector2( 14, 14 )
+50/navigation_offset = Vector2( 14, 14 )
+50/shapes = [  ]
+50/z_index = 0
+51/name = "Desert_stones_03"
+51/texture = ExtResource( 1 )
+51/tex_offset = Vector2( 0, 0 )
+51/modulate = Color( 1, 1, 1, 1 )
+51/region = Rect2( 364, 28, 28, 28 )
+51/tile_mode = 0
+51/occluder_offset = Vector2( 14, 14 )
+51/navigation_offset = Vector2( 14, 14 )
+51/shapes = [  ]
+51/z_index = 0
+52/name = "Desert_stones_04"
+52/texture = ExtResource( 1 )
+52/tex_offset = Vector2( 0, 0 )
+52/modulate = Color( 1, 1, 1, 1 )
+52/region = Rect2( 392, 28, 28, 28 )
+52/tile_mode = 0
+52/occluder_offset = Vector2( 14, 14 )
+52/navigation_offset = Vector2( 14, 14 )
+52/shapes = [  ]
+52/z_index = 0
+53/name = "Stone_01"
+53/texture = ExtResource( 1 )
+53/tex_offset = Vector2( 0, 0 )
+53/modulate = Color( 1, 1, 1, 1 )
+53/region = Rect2( 448, 28, 28, 28 )
+53/tile_mode = 0
+53/occluder_offset = Vector2( 14, 14 )
+53/navigation_offset = Vector2( 14, 14 )
+53/shapes = [  ]
+53/z_index = 0
+54/name = "Stone_05"
+54/texture = ExtResource( 1 )
+54/tex_offset = Vector2( 0, 0 )
+54/modulate = Color( 1, 1, 1, 1 )
+54/region = Rect2( 448, 56, 28, 28 )
+54/tile_mode = 0
+54/occluder_offset = Vector2( 14, 14 )
+54/navigation_offset = Vector2( 14, 14 )
+54/shapes = [  ]
+54/z_index = 0
+55/name = "Stone_09"
+55/texture = ExtResource( 1 )
+55/tex_offset = Vector2( 0, 0 )
+55/modulate = Color( 1, 1, 1, 1 )
+55/region = Rect2( 448, 84, 28, 28 )
+55/tile_mode = 0
+55/occluder_offset = Vector2( 14, 14 )
+55/navigation_offset = Vector2( 14, 14 )
+55/shapes = [  ]
+55/z_index = 0
+56/name = "Stone_13"
+56/texture = ExtResource( 1 )
+56/tex_offset = Vector2( 0, 0 )
+56/modulate = Color( 1, 1, 1, 1 )
+56/region = Rect2( 448, 112, 28, 28 )
+56/tile_mode = 0
+56/occluder_offset = Vector2( 14, 14 )
+56/navigation_offset = Vector2( 14, 14 )
+56/shapes = [  ]
+56/z_index = 0
+57/name = "Stone_14"
+57/texture = ExtResource( 1 )
+57/tex_offset = Vector2( 0, 0 )
+57/modulate = Color( 1, 1, 1, 1 )
+57/region = Rect2( 476, 112, 28, 28 )
+57/tile_mode = 0
+57/occluder_offset = Vector2( 14, 14 )
+57/navigation_offset = Vector2( 14, 14 )
+57/shapes = [  ]
+57/z_index = 0
+58/name = "Stone_15"
+58/texture = ExtResource( 1 )
+58/tex_offset = Vector2( 0, 0 )
+58/modulate = Color( 1, 1, 1, 1 )
+58/region = Rect2( 504, 112, 28, 28 )
+58/tile_mode = 0
+58/occluder_offset = Vector2( 14, 14 )
+58/navigation_offset = Vector2( 14, 14 )
+58/shapes = [  ]
+58/z_index = 0
+59/name = "Stone_16"
+59/texture = ExtResource( 1 )
+59/tex_offset = Vector2( 0, 0 )
+59/modulate = Color( 1, 1, 1, 1 )
+59/region = Rect2( 532, 112, 28, 28 )
+59/tile_mode = 0
+59/occluder_offset = Vector2( 14, 14 )
+59/navigation_offset = Vector2( 14, 14 )
+59/shapes = [  ]
+59/z_index = 0
+60/name = "Stone_10"
+60/texture = ExtResource( 1 )
+60/tex_offset = Vector2( 0, 0 )
+60/modulate = Color( 1, 1, 1, 1 )
+60/region = Rect2( 476, 84, 28, 28 )
+60/tile_mode = 0
+60/occluder_offset = Vector2( 14, 14 )
+60/navigation_offset = Vector2( 14, 14 )
+60/shapes = [  ]
+60/z_index = 0
+61/name = "Stone_11"
+61/texture = ExtResource( 1 )
+61/tex_offset = Vector2( 0, 0 )
+61/modulate = Color( 1, 1, 1, 1 )
+61/region = Rect2( 504, 84, 28, 28 )
+61/tile_mode = 0
+61/occluder_offset = Vector2( 14, 14 )
+61/navigation_offset = Vector2( 14, 14 )
+61/shapes = [  ]
+61/z_index = 0
+62/name = "Stone_12"
+62/texture = ExtResource( 1 )
+62/tex_offset = Vector2( 0, 0 )
+62/modulate = Color( 1, 1, 1, 1 )
+62/region = Rect2( 532, 84, 28, 28 )
+62/tile_mode = 0
+62/occluder_offset = Vector2( 14, 14 )
+62/navigation_offset = Vector2( 14, 14 )
+62/shapes = [  ]
+62/z_index = 0
+63/name = "Stone_06"
+63/texture = ExtResource( 1 )
+63/tex_offset = Vector2( 0, 0 )
+63/modulate = Color( 1, 1, 1, 1 )
+63/region = Rect2( 476, 56, 28, 28 )
+63/tile_mode = 0
+63/occluder_offset = Vector2( 14, 14 )
+63/navigation_offset = Vector2( 14, 14 )
+63/shapes = [  ]
+63/z_index = 0
+64/name = "Stone_07"
+64/texture = ExtResource( 1 )
+64/tex_offset = Vector2( 0, 0 )
+64/modulate = Color( 1, 1, 1, 1 )
+64/region = Rect2( 504, 56, 28, 28 )
+64/tile_mode = 0
+64/occluder_offset = Vector2( 14, 14 )
+64/navigation_offset = Vector2( 14, 14 )
+64/shapes = [  ]
+64/z_index = 0
+65/name = "Stone_08"
+65/texture = ExtResource( 1 )
+65/tex_offset = Vector2( 0, 0 )
+65/modulate = Color( 1, 1, 1, 1 )
+65/region = Rect2( 532, 56, 28, 28 )
+65/tile_mode = 0
+65/occluder_offset = Vector2( 14, 14 )
+65/navigation_offset = Vector2( 14, 14 )
+65/shapes = [  ]
+65/z_index = 0
+66/name = "Stone_02"
+66/texture = ExtResource( 1 )
+66/tex_offset = Vector2( 0, 0 )
+66/modulate = Color( 1, 1, 1, 1 )
+66/region = Rect2( 476, 28, 28, 28 )
+66/tile_mode = 0
+66/occluder_offset = Vector2( 14, 14 )
+66/navigation_offset = Vector2( 14, 14 )
+66/shapes = [  ]
+66/z_index = 0
+67/name = "Stone_03"
+67/texture = ExtResource( 1 )
+67/tex_offset = Vector2( 0, 0 )
+67/modulate = Color( 1, 1, 1, 1 )
+67/region = Rect2( 504, 28, 28, 28 )
+67/tile_mode = 0
+67/occluder_offset = Vector2( 14, 14 )
+67/navigation_offset = Vector2( 14, 14 )
+67/shapes = [  ]
+67/z_index = 0
+68/name = "Stone_04"
+68/texture = ExtResource( 1 )
+68/tex_offset = Vector2( 0, 0 )
+68/modulate = Color( 1, 1, 1, 1 )
+68/region = Rect2( 532, 28, 28, 28 )
+68/tile_mode = 0
+68/occluder_offset = Vector2( 14, 14 )
+68/navigation_offset = Vector2( 14, 14 )
+68/shapes = [  ]
+68/z_index = 0
+69/name = "Desert_sand_05"
+69/texture = ExtResource( 1 )
+69/tex_offset = Vector2( 0, 0 )
+69/modulate = Color( 1, 1, 1, 1 )
+69/region = Rect2( 28, 56, 28, 28 )
+69/tile_mode = 0
+69/occluder_offset = Vector2( 14, 14 )
+69/navigation_offset = Vector2( 14, 14 )
+69/shapes = [  ]
+69/z_index = 0
+70/name = "Desert_sand_06"
+70/texture = ExtResource( 1 )
+70/tex_offset = Vector2( 0, 0 )
+70/modulate = Color( 1, 1, 1, 1 )
+70/region = Rect2( 56, 56, 28, 28 )
+70/tile_mode = 0
+70/occluder_offset = Vector2( 14, 14 )
+70/navigation_offset = Vector2( 14, 14 )
+70/shapes = [  ]
+70/z_index = 0
+71/name = "Desert_sand_07"
+71/texture = ExtResource( 1 )
+71/tex_offset = Vector2( 0, 0 )
+71/modulate = Color( 1, 1, 1, 1 )
+71/region = Rect2( 84, 56, 28, 28 )
+71/tile_mode = 0
+71/occluder_offset = Vector2( 14, 14 )
+71/navigation_offset = Vector2( 14, 14 )
+71/shapes = [  ]
+71/z_index = 0
+72/name = "Desert_sand_08"
+72/texture = ExtResource( 1 )
+72/tex_offset = Vector2( 0, 0 )
+72/modulate = Color( 1, 1, 1, 1 )
+72/region = Rect2( 112, 56, 28, 28 )
+72/tile_mode = 0
+72/occluder_offset = Vector2( 14, 14 )
+72/navigation_offset = Vector2( 14, 14 )
+72/shapes = [  ]
+72/z_index = 0
+73/name = "Desert_sand_09"
+73/texture = ExtResource( 1 )
+73/tex_offset = Vector2( 0, 0 )
+73/modulate = Color( 1, 1, 1, 1 )
+73/region = Rect2( 28, 84, 28, 28 )
+73/tile_mode = 0
+73/occluder_offset = Vector2( 14, 14 )
+73/navigation_offset = Vector2( 14, 14 )
+73/shapes = [  ]
+73/z_index = 0
+74/name = "CollisionTestCube"
+74/texture = ExtResource( 1 )
+74/tex_offset = Vector2( 0, 0 )
+74/modulate = Color( 1, 1, 1, 1 )
+74/region = Rect2( 84, 168, 28, 28 )
+74/tile_mode = 0
+74/occluder_offset = Vector2( 14, 14 )
+74/occluder = SubResource( 1 )
+74/navigation_offset = Vector2( 14, 14 )
+74/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+74/z_index = 0
+75/name = "wall_1"
+75/texture = ExtResource( 1 )
+75/tex_offset = Vector2( 0, 0 )
+75/modulate = Color( 1, 1, 1, 1 )
+75/region = Rect2( 84, 168, 28, 28 )
+75/tile_mode = 0
+75/occluder_offset = Vector2( 14, 14 )
+75/occluder = SubResource( 3 )
+75/navigation_offset = Vector2( 14, 14 )
+75/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+75/z_index = 0
+76/name = "wall_2"
+76/texture = ExtResource( 1 )
+76/tex_offset = Vector2( 0, 0 )
+76/modulate = Color( 1, 1, 1, 1 )
+76/region = Rect2( 56, 168, 28, 28 )
+76/tile_mode = 0
+76/occluder_offset = Vector2( 14, 14 )
+76/occluder = SubResource( 3 )
+76/navigation_offset = Vector2( 14, 14 )
+76/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+76/z_index = 0
+77/name = "void"
+77/texture = ExtResource( 2 )
+77/tex_offset = Vector2( 0, 0 )
+77/modulate = Color( 1, 1, 1, 1 )
+77/region = Rect2( 84, 84, 28, 28 )
+77/tile_mode = 0
+77/occluder_offset = Vector2( 14, 14 )
+77/navigation_offset = Vector2( 14, 14 )
+77/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+77/z_index = 0
+78/name = "wall_3"
+78/texture = ExtResource( 1 )
+78/tex_offset = Vector2( 0, 0 )
+78/modulate = Color( 1, 1, 1, 1 )
+78/region = Rect2( 112, 168, 28, 28 )
+78/tile_mode = 0
+78/occluder_offset = Vector2( 14, 14 )
+78/occluder = SubResource( 3 )
+78/navigation_offset = Vector2( 14, 14 )
+78/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+78/z_index = 0
+79/name = "stone_wall"
+79/texture = ExtResource( 1 )
+79/tex_offset = Vector2( 0, 0 )
+79/modulate = Color( 1, 1, 1, 1 )
+79/region = Rect2( 56, 168, 28, 28 )
+79/tile_mode = 0
+79/occluder_offset = Vector2( 14, 14 )
+79/navigation_offset = Vector2( 14, 14 )
+79/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+79/z_index = 0
+80/name = "stone_floor"
+80/texture = ExtResource( 1 )
+80/tex_offset = Vector2( 0, 0 )
+80/modulate = Color( 1, 1, 1, 1 )
+80/region = Rect2( 84, 168, 28, 28 )
+80/tile_mode = 0
+80/occluder_offset = Vector2( 14, 14 )
+80/navigation_offset = Vector2( 14, 14 )
+80/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+80/z_index = 0
+81/name = "half_stone_floor"
+81/texture = ExtResource( 1 )
+81/tex_offset = Vector2( 0, 0 )
+81/modulate = Color( 1, 1, 1, 1 )
+81/region = Rect2( 84, 168, 14, 28 )
+81/tile_mode = 0
+81/occluder_offset = Vector2( 7, 14 )
+81/navigation_offset = Vector2( 7, 14 )
+81/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 7, 14 )
+} ]
+81/z_index = 0
+82/name = "half_stone_floor2"
+82/texture = ExtResource( 1 )
+82/tex_offset = Vector2( 0, 0 )
+82/modulate = Color( 1, 1, 1, 1 )
+82/region = Rect2( 98, 168, 14, 28 )
+82/tile_mode = 0
+82/occluder_offset = Vector2( 7, 14 )
+82/navigation_offset = Vector2( 7, 14 )
+82/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 7, 14 )
+} ]
+82/z_index = 0
+83/name = "stone_floor_2"
+83/texture = ExtResource( 1 )
+83/tex_offset = Vector2( 0, 0 )
+83/modulate = Color( 1, 1, 1, 1 )
+83/region = Rect2( 84, 168, 28, 28 )
+83/tile_mode = 0
+83/occluder_offset = Vector2( 14, 14 )
+83/navigation_offset = Vector2( 14, 14 )
+83/shapes = [  ]
+83/z_index = 0
+84/name = "half_stone_wall"
+84/texture = ExtResource( 1 )
+84/tex_offset = Vector2( 0, 0 )
+84/modulate = Color( 1, 1, 1, 1 )
+84/region = Rect2( 56, 168, 14, 28 )
+84/tile_mode = 0
+84/occluder_offset = Vector2( 7, 14 )
+84/navigation_offset = Vector2( 7, 14 )
+84/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 7, 14 )
+} ]
+84/z_index = 0
+85/name = "half_stone_wall2"
+85/texture = ExtResource( 1 )
+85/tex_offset = Vector2( 0, 0 )
+85/modulate = Color( 1, 1, 1, 1 )
+85/region = Rect2( 70, 168, 14, 28 )
+85/tile_mode = 0
+85/occluder_offset = Vector2( 7, 14 )
+85/navigation_offset = Vector2( 7, 14 )
+85/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 7, 14 )
+} ]
+85/z_index = 0
+86/name = "stairs"
+86/texture = ExtResource( 1 )
+86/tex_offset = Vector2( 0, 0 )
+86/modulate = Color( 1, 1, 1, 1 )
+86/region = Rect2( 112, 168, 28, 28 )
+86/tile_mode = 0
+86/occluder_offset = Vector2( 14, 14 )
+86/navigation_offset = Vector2( 14, 14 )
+86/shapes = [  ]
+86/z_index = 0
+87/name = "air"
+87/texture = ExtResource( 1 )
+87/tex_offset = Vector2( 0, 0 )
+87/modulate = Color( 1, 1, 1, 1 )
+87/region = Rect2( 168, 168, 28, 28 )
+87/tile_mode = 0
+87/occluder_offset = Vector2( 14, 14 )
+87/navigation_offset = Vector2( 14, 14 )
+87/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 14, 14 )
+} ]
+87/z_index = 0

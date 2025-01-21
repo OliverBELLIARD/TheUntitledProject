@@ -1,0 +1,526 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://tiles/tileset_atlas.png" type="Texture" id=1]
+[ext_resource path="res://assets/standard_light_perspective_gradient.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 14, 14 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 7, 14 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 7, 14 )
+
+[node name="Desert_tileset" type="TileMap"]
+format = 1
+
+[node name="Desert_sand_01" type="Sprite" parent="."]
+position = Vector2( 31.8442, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 28, 28, 28, 28 )
+
+[node name="Desert_sand_02" type="Sprite" parent="."]
+position = Vector2( 70, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 56, 28, 28, 28 )
+
+[node name="Desert_sand_03" type="Sprite" parent="."]
+position = Vector2( 110, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 28, 28, 28 )
+
+[node name="Desert_sand_04" type="Sprite" parent="."]
+position = Vector2( 150, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 28, 28, 28 )
+
+[node name="Desert_red_sand_01" type="Sprite" parent="."]
+position = Vector2( 190, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 168, 28, 28, 28 )
+
+[node name="Desert_red_sand_05" type="Sprite" parent="."]
+position = Vector2( 190, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 168, 56, 28, 28 )
+
+[node name="Desert_red_sand_09" type="Sprite" parent="."]
+position = Vector2( 190, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 168, 84, 28, 28 )
+
+[node name="Desert_red_sand_13" type="Sprite" parent="."]
+position = Vector2( 190, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 168, 112, 28, 28 )
+
+[node name="Desert_red_sand_14" type="Sprite" parent="."]
+position = Vector2( 230, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 196, 112, 28, 28 )
+
+[node name="Desert_red_sand_15" type="Sprite" parent="."]
+position = Vector2( 270, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 112, 28, 28 )
+
+[node name="Desert_red_sand_16" type="Sprite" parent="."]
+position = Vector2( 310, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 252, 112, 28, 28 )
+
+[node name="Desert_red_sand_10" type="Sprite" parent="."]
+position = Vector2( 229.989, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 196, 84, 28, 28 )
+
+[node name="Desert_red_sand_11" type="Sprite" parent="."]
+position = Vector2( 270, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 84, 28, 28 )
+
+[node name="Desert_red_sand_12" type="Sprite" parent="."]
+position = Vector2( 310, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 252, 84, 28, 28 )
+
+[node name="Desert_red_sand_06" type="Sprite" parent="."]
+position = Vector2( 230, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 196, 56, 28, 28 )
+
+[node name="Desert_red_sand_07" type="Sprite" parent="."]
+position = Vector2( 270, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 56, 28, 28 )
+
+[node name="Desert_red_sand_08" type="Sprite" parent="."]
+position = Vector2( 310, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 252, 56, 28, 28 )
+
+[node name="Desert_red_sand_02" type="Sprite" parent="."]
+position = Vector2( 230, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 196, 28, 28, 28 )
+
+[node name="Desert_red_sand_03" type="Sprite" parent="."]
+position = Vector2( 270, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 28, 28, 28 )
+
+[node name="Desert_red_sand_04" type="Sprite" parent="."]
+position = Vector2( 310, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 252, 28, 28, 28 )
+
+[node name="Desert_stones_01" type="Sprite" parent="."]
+position = Vector2( 350, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 308, 28, 28, 28 )
+
+[node name="Desert_stones_05" type="Sprite" parent="."]
+position = Vector2( 350, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 308, 56, 28, 28 )
+
+[node name="Desert_stones_09" type="Sprite" parent="."]
+position = Vector2( 350, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 308, 84, 28, 28 )
+
+[node name="Desert_stones_13" type="Sprite" parent="."]
+position = Vector2( 350, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 308, 112, 28, 28 )
+
+[node name="Desert_stones_14" type="Sprite" parent="."]
+position = Vector2( 390, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 336, 112, 28, 28 )
+
+[node name="Desert_stones_15" type="Sprite" parent="."]
+position = Vector2( 430, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 364, 112, 28, 28 )
+
+[node name="Desert_stones_16" type="Sprite" parent="."]
+position = Vector2( 470, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 392, 112, 28, 28 )
+
+[node name="Desert_stones_10" type="Sprite" parent="."]
+position = Vector2( 390, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 336, 84, 28, 28 )
+
+[node name="Desert_stones_11" type="Sprite" parent="."]
+position = Vector2( 430, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 364, 84, 28, 28 )
+
+[node name="Desert_stones_12" type="Sprite" parent="."]
+position = Vector2( 470, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 392, 84, 28, 28 )
+
+[node name="Desert_stones_06" type="Sprite" parent="."]
+position = Vector2( 390, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 336, 56, 28, 28 )
+
+[node name="Desert_stones_07" type="Sprite" parent="."]
+position = Vector2( 430, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 364, 56, 28, 28 )
+
+[node name="Desert_stones_08" type="Sprite" parent="."]
+position = Vector2( 470, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 392, 56, 28, 28 )
+
+[node name="Desert_stones_02" type="Sprite" parent="."]
+position = Vector2( 390, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 336, 28, 28, 28 )
+
+[node name="Desert_stones_03" type="Sprite" parent="."]
+position = Vector2( 430, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 364, 28, 28, 28 )
+
+[node name="Desert_stones_04" type="Sprite" parent="."]
+position = Vector2( 470, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 392, 28, 28, 28 )
+
+[node name="Stone_01" type="Sprite" parent="."]
+position = Vector2( 510, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 448, 28, 28, 28 )
+
+[node name="Stone_05" type="Sprite" parent="."]
+position = Vector2( 510, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 448, 56, 28, 28 )
+
+[node name="Stone_09" type="Sprite" parent="."]
+position = Vector2( 510, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 448, 84, 28, 28 )
+
+[node name="Stone_13" type="Sprite" parent="."]
+position = Vector2( 510, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 448, 112, 28, 28 )
+
+[node name="Stone_14" type="Sprite" parent="."]
+position = Vector2( 550, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 476, 112, 28, 28 )
+
+[node name="Stone_15" type="Sprite" parent="."]
+position = Vector2( 590, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 504, 112, 28, 28 )
+
+[node name="Stone_16" type="Sprite" parent="."]
+position = Vector2( 630, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 532, 112, 28, 28 )
+
+[node name="Stone_10" type="Sprite" parent="."]
+position = Vector2( 550, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 476, 84, 28, 28 )
+
+[node name="Stone_11" type="Sprite" parent="."]
+position = Vector2( 590, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 504, 84, 28, 28 )
+
+[node name="Stone_12" type="Sprite" parent="."]
+position = Vector2( 630, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 532, 84, 28, 28 )
+
+[node name="Stone_06" type="Sprite" parent="."]
+position = Vector2( 550, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 476, 56, 28, 28 )
+
+[node name="Stone_07" type="Sprite" parent="."]
+position = Vector2( 590, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 504, 56, 28, 28 )
+
+[node name="Stone_08" type="Sprite" parent="."]
+position = Vector2( 630, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 532, 56, 28, 28 )
+
+[node name="Stone_02" type="Sprite" parent="."]
+position = Vector2( 550, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 476, 28, 28, 28 )
+
+[node name="Stone_03" type="Sprite" parent="."]
+position = Vector2( 590, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 504, 28, 28, 28 )
+
+[node name="Stone_04" type="Sprite" parent="."]
+position = Vector2( 630, 32.5076 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 532, 28, 28, 28 )
+
+[node name="Desert_sand_05" type="Sprite" parent="."]
+position = Vector2( 31.8442, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 28, 56, 28, 28 )
+
+[node name="Desert_sand_06" type="Sprite" parent="."]
+position = Vector2( 70, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 56, 56, 28, 28 )
+
+[node name="Desert_sand_07" type="Sprite" parent="."]
+position = Vector2( 110, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 56, 28, 28 )
+
+[node name="Desert_sand_08" type="Sprite" parent="."]
+position = Vector2( 150, 70 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 56, 28, 28 )
+
+[node name="Desert_sand_09" type="Sprite" parent="."]
+position = Vector2( 31.8442, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 28, 84, 28, 28 )
+
+[node name="Desert_sand_10" type="Sprite" parent="."]
+position = Vector2( 70, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 56, 84, 28, 28 )
+
+[node name="Desert_sand_11" type="Sprite" parent="."]
+position = Vector2( 110, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 84, 28, 28 )
+
+[node name="Desert_sand_12" type="Sprite" parent="."]
+position = Vector2( 150, 110 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 84, 28, 28 )
+
+[node name="Desert_sand_13" type="Sprite" parent="."]
+position = Vector2( 31.8442, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 28, 112, 28, 28 )
+
+[node name="Desert_sand_14" type="Sprite" parent="."]
+position = Vector2( 70, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 56, 112, 28, 28 )
+
+[node name="Desert_sand_15" type="Sprite" parent="."]
+position = Vector2( 110, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 112, 28, 28 )
+
+[node name="Desert_sand_16" type="Sprite" parent="."]
+position = Vector2( 150, 150 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 112, 28, 28 )
+
+[node name="Desert_grass" type="Sprite" parent="."]
+position = Vector2( 190, 190 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 28, 168, 28, 28 )
+
+[node name="stone_floor" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 30, 190 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 168, 28, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="stone_floor"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stone_floor/StaticBody2D"]
+shape = SubResource( 5 )
+
+[node name="half_stone_floor" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 70, 190 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 168, 14, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="half_stone_floor"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="half_stone_floor/StaticBody2D"]
+shape = SubResource( 6 )
+
+[node name="half_stone_floor2" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 70, 230 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 98, 168, 14, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="half_stone_floor2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="half_stone_floor2/StaticBody2D"]
+shape = SubResource( 7 )
+
+[node name="stone_floor_2" type="Sprite" parent="."]
+position = Vector2( 30, 230 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 84, 168, 28, 28 )
+
+[node name="stairs" type="Sprite" parent="."]
+position = Vector2( 30, 270 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 168, 28, 28 )
+
+[node name="air" type="Sprite" parent="."]
+position = Vector2( 70, 270 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 168, 168, 28, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="air"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="air/StaticBody2D"]
+shape = SubResource( 11 )
+
+[node name="stone_wall" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 150, 190 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 56, 168, 28, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="stone_wall"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stone_wall/StaticBody2D"]
+shape = SubResource( 8 )
+
+[node name="half_stone_wall" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 230, 190 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 56, 168, 14, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="half_stone_wall"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="half_stone_wall/StaticBody2D"]
+shape = SubResource( 9 )
+
+[node name="half_stone_wall2" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 270, 190 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 70, 168, 14, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="half_stone_wall2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="half_stone_wall2/StaticBody2D"]
+shape = SubResource( 10 )
+
+[node name="void" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 110, 190 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 84, 84, 28, 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="void"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="void/StaticBody2D"]
+shape = SubResource( 5 )
